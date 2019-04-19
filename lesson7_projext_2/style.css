@@ -1,0 +1,24 @@
+body{
+        margin: 0;
+        padding:0;
+}
+
+#overview{
+        background-color: #050517;
+        height: 1000px;
+}
+
+#media{
+        background-color: #CF5C36;
+        height: 1000px;
+        
+}
+#overview{
+        background-color: #050517;
+        height: 1000px;
+}
+
+#footer{
+        background-color: #CF5C36;
+        height: 1000px;
+}
