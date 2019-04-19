@@ -2,6 +2,8 @@
 /* CSS Document created by Janne Mundin, March 26, 2019*/
 
 body {
+	margin: 0;
+	padding: 0;
 	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
 	font-size: 60px;
 	line-height: 1.8em;
@@ -13,22 +15,24 @@ body {
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.2em;
-	padding: 0 40px;
 	color: #E6EED6;
+	padding: 0 40px;
+
 }
 h1 {
 	font-size: 150px;
+	padding: 0 40px;
 	padding: 4px 0;
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
+	margin: 0;
 }
 h2 {
 	font-size: 90px;
 	padding: 0 40px;
 	font-variant: small-caps;
 	letter-spacing: 0.5em;
-	background-color: #FF9F1C;
 }
 h3 {
 	font-size: 70px;
@@ -39,6 +43,7 @@ h3 {
 	padding: 4px 0;
 	font-variant: small-caps;
 	font-style: italic;
+	padding: 0 40px;
 }
 
 /* link styles ---------------------------- */
@@ -61,7 +66,10 @@ ul li {
 	margin-left: 60px;
 }
 ol {
-	margin-left: 16px;
+	margin-left: 60px;
+}
+ol li{
+	padding-left: 0px;	
 }
 
 /* table styles -------------------------------------- */
@@ -96,4 +104,43 @@ iframe {
 	border: solid #ACBED8 1px;
 	padding: 0px;
 	margin: 20px;
+}
+/* DIV STYLES FOR PAGE LAYOUT*/
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+#header {
+	width:100%;
+	background-color: #eee;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 40px;
+	
+}
+
+#content {
+	width:100%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+#sidebar {
+	width: 300px;
+	float: left;
+}
+
+#footer {
+	width:100%;
+	background-color: #FFF;
+	border-top: 1px solid #fff;
+	padding: 40px 0;
+	clear: both;
+}
+
+#footer p{
+	margin: 0;
 }
